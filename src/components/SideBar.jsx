@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const NavBar = () => {
+const SideBar = () => {
   return (
     <Nav>
         <h1>Meetups Demo</h1>
@@ -15,4 +15,4 @@ const NavBar = () => {
 const Nav = styled.div`
     
 `;
-export default NavBar;
+export default SideBar;
