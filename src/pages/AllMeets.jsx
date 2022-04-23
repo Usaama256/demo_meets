@@ -1,13 +1,12 @@
 import styled from "styled-components";
 import MaterialNav from "../components/MaterialNav";
-import MeetupItem from "../components/MeetupItem";
-import SideBar from "../components/SideBar";
+import Meetups from "../components/Meetups";
 
 const AllMeets = () => {
   return (
     <Container>
       <MaterialNav />
-      <MeetupItem />
+      <Meetups />
     </Container>
   );
 };
